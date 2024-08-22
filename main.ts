@@ -1,45 +1,99 @@
-//ternary operator//
-let marks = 75
-let result = marks>40?"pass":"fail"
-console.log(result)
-let day = "sunday"
-let day7 = day?"is it a 7th day":"or it is a last day of week"
-console.log(day7)
-//number guessing game//
-let number = 45
-let guess = 36
-if(guess>number){
-console.log("your number is to high")
-
-}
-else if(guess<number){
-    console.log("your number is to low")
-}
-else{
- console.log("congratulation you are right")
-
-}
 //switch case//
-let marks1:number = 45
-switch(marks){
-    case 65 :
-    console.log("your number is to high")
+let day:string = "friday"
+switch(day){
+case "monday" : 
+console.log("it is a first day of week")
+break;
+case "tuesday" :
+    console.log("it is a second day of the week")
     break;
-    case 36:
-        console.log("your number is to low")
+    case "wednesday" :
+        console.log("it is a therd day day of the week")
         break;
-        case 45:
-            console.log("congrats you are right")
-            
-}        
-//ternary operators// 
-let marks2 = 45
-let result1 = marks2>36?"your num is to high":"your num is to low"
-console.log(result1)
+        case "thursday":
+            console.log("it is forth day of the week")
+            break;
+            case "friday" :
+                console.log ("it is a fifthday of the week")
+                break;
+                case "saturday" :
+                    console.log("it is a sixthday")
+                    break;
+                    case "sunday" :
+                        console.log("it is a holiday")
+                        break;
 
-//BMI calculator//
-let weight = 70
-let height = 5.5
-let BMI = weight/ (height*height)
-console.log(`bushra your bmi is ${BMI}`)
-            
+}
+let kid:string = "alina"
+switch (kid) {
+    case "numa" : 
+    console.log("it is a 3rd kid")
+        
+        break;
+
+    case "amaan" :
+        console.log("it is a second kid")
+    
+        break;
+        case "Airah" :
+            console.log("it is a 4th kid")
+            break;
+            case "Aizah" :
+                console.log("it is a 5th kid")
+                break; 
+                default:
+                    console.log("they are my child")
+                    break;
+                
+}
+let favFood:string = "pizza"
+switch (favFood){
+    case "burger" :
+        console.log("i order 2 pizzas")
+        break;
+        case "biryani" :
+            console.log("i maked biryani today")
+            break;
+            case "haleem" :
+                console.log("i like haleem")
+                break;
+                case "roti" :
+                    console.log("i maked rotis")
+                    break;
+                    case "pizza" :
+                        console.log("i like pizza")
+                        break;
+                        case "shami kabab" :
+                            console.log("i made shami kabab")
+                            break;
+                            default :
+                            console.log("these are my favFood")
+                            break;
+
+
+}
+let marks:number = 85
+switch (marks){
+    case 76 :
+        console.log("grade A")
+        break;
+        case 65 :
+            console.log("grade B")
+            break;
+            case 55 :
+                console.log("grade C")
+                break;
+                case 85 :
+                    console.log("grade D")
+                    break;
+                    case 97 :
+                        console.log("grade E")
+                        break;
+
+                
+
+}
+//ternary opretors//
+let isHungy:boolean = false
+let snacks=isHungy?"EAT APPLE":"go to school"
+console.log(snacks)
